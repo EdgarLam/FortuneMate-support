@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fortune Mate｜Help & Support</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", Arial, sans-serif; line-height: 1.7; margin: 0; background: #fff; color: #1a1a1a; }
+    header { text-align: center; padding: 40px 20px 20px; background: #f5f5f5; border-bottom: 1px solid #e6e6e6; }
+    header h1 { margin: 0; font-size: 32px; }
+    header p { margin: 8px 0 0; color: #555; }
+    main { max-width: 900px; margin: 0 auto; padding: 30px 20px; }
+    h2 { font-size: 22px; margin: 24px 0 12px; border-left: 4px solid #5a7a6f; padding-left: 10px; }
+    ul { padding-left: 20px; }
+    li { margin: 6px 0; }
+    .disclaimer { margin-top: 16px; padding: 12px; border: 1px solid #e6e6e6; background: #fafafa; font-size: 14px; color: #555; border-radius: 6px; }
+    footer { text-align: center; padding: 16px; font-size: 13px; color: #777; border-top: 1px solid #e6e6e6; background: #f5f5f5; }
+    form { margin-top: 20px; padding: 16px; border: 1px solid #e6e6e6; background: #fafafa; border-radius: 6px; }
+    form label { display: block; margin-top: 10px; }
+    form input, form textarea { width: 100%; padding: 8px; margin-top: 6px; border: 1px solid #ccc; border-radius: 4px; }
+    form button { margin-top: 12px; padding: 10px 16px; background: #5a7a6f; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+    form button:hover { background: #466057; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fortune Mate</h1>
+    <p>算命 App 專用 Help & Support</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>App 功能簡介</h2>
+      <ul>
+        <li><strong>檔案功能：</strong>儲存測試結果，用作回看，支援雙人/多人測試。</li>
+        <li><strong>命運之樹功能：</strong>2–6人根據不同主題測試，選擇題目並從檔案選擇人物即可。</li>
+        <li><strong>AI 功能：</strong>登入帳號後設定生日日期，AI 會根據生日推盤並回答問題。</li>
+        <li><strong>個人功能：</strong>支援 Apple ID / Facebook / Google / Email 登入，語言切換（製作中），以及「關於我們」介面。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>使用教學</h2>
+      <p>使用步驟：</p>
+      <ol>
+        <li>填寫生日日期</li>
+        <li>選擇性別（男/女）</li>
+        <li>填寫名子/稱號</li>
+        <li>按下「確定」即可得出測試結果</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>常見問題 FAQ</h2>
+      <ul>
+        <li><strong>Q1：</strong>需要登入才能使用 AI 功能嗎？<br>👉 是的，必須登入帳號並設定日期。</li>
+        <li><strong>Q2：</strong>測試結果可以保存嗎？<br>👉 可以，透過檔案功能保存並回看。</li>
+        <li><strong>Q3：</strong>多人測試如何進行？<br>👉 使用「命運之樹」功能，選擇題目並挑選 2–6 個人物。</li>
+        <li><strong>Q4：</strong>支援哪些登入方式？<br>👉 Apple ID、Facebook、Google、Email。</li>
+        <li><strong>Q5：</strong>是否提供專業建議？<br>👉 不提供，僅供娛樂與自我反思。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>免責聲明</h2>
+      <div class="disclaimer">
+        本應用程式內容僅供個人反思與娛樂用途，並不提供任何專業、醫療、法律或財務建議，亦不應作為人生決策依據。
+      </div>
+    </section>
+
+    <section>
+      <h2>回報問題指引</h2>
+      <p>如遇到問題，請先確認：</p>
+      <ul>
+        <li>App 已更新至最新版本</li>
+        <li>網路連線正常</li>
+        <li>登入帳號資訊正確</li>
+      </ul>
+      <p>若仍有問題，請透過下方聯絡表單回報。</p>
+    </section>
+
+    <section>
+      <h2>聯絡我們</h2>
+      <p>聯絡人：EDGAR LAM<br>Email：<a href="mailto:sang3305au@gmail.com">sang3305au@gmail.com</a></p>
+      <form action="mailto:sang3305au@gmail.com" method="post" enctype="text/plain">
+        <label for="name">您的名字：</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">您的 Email：</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">問題或建議：</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">送出</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    © Fortune Mate — Help & Support Page
+  </footer>
+</body>
+</html>
